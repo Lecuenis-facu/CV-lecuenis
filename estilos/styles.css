@@ -1,0 +1,46 @@
+:root{
+    --color-oscuro: #0B2447;
+    --azul-claro: #576CBC;
+    --violeta: #576CBC;
+    --celeste: #A5D7E8;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+.titulo{
+    background-color: var(--azul-claro);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.subtitulo{
+    text-align: center;
+    margin: 1rem;
+}
+.texto{
+    background-color: var(--celeste);
+    margin: 2rem;
+    text-align: center;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.foto{
+    border-radius: 100%;
+}
+.indice{
+    text-decoration: none;
+    margin: 2rem;
+    
+}
