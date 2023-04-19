@@ -200,3 +200,15 @@ footer{
     list-style-type: none;
     border-top: 2px solid black;
 } 
+
+.button-back{
+    width: fit-content;
+    padding: 0.7rem 1.2rem;
+    border-radius: 1rem;
+    margin: 1rem auto;
+    background-color: #2C62C2;
+
+}
+.button-back:hover{
+    background-color: gray;
+}
